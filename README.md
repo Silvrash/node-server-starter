@@ -8,9 +8,10 @@
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 
-## Getting Started
+## 🎬 Getting started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+> copy the .env.example as .env and configure the variables
 
 ### Prerequisites
 
@@ -20,21 +21,10 @@ What things you need to install the software and how to install them
 * [Yarn](https://yarnpkg.com/lang/en/docs/install/)
 
 
-### Installing
-
->After installing node and yarn,
-
-```
-cd {Project}/
-```
-
->Install dependencies
-
-```
-yarn
-```
-
-> copy the .env.example as .env and configure the variables
+## 🔧 Installation
+``sh
+yarn install
+``
 
 ## Running the tests
 
@@ -43,6 +33,6 @@ yarn
 * [NodeJs](https://nodejs.org/en/download/)
 
 
-## License
+## 🥂 License
 
-This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details
+[Apache-2.0](LICENSE)
