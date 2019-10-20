@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"target": "es6",
+		"module": "commonjs",
+		"lib": ["esnext"],
+		"esModuleInterop": true,
+		"sourceMap": true,
+		"moduleResolution": "node",
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"outDir": "dist",
+		"resolveJsonModule": true,
+		"strictNullChecks": false,
+		"skipLibCheck": true,
+		"rootDir": ".",
+		"paths": {
+			"*": ["./src/@types/*"],
+			"@features/*": ["./src/features/*"],
+			"@BUtils/*": ["./src/utils/*"]
+		}
+	},
+	"include": ["./src"],
+	"exclude": ["node_modules"]
+}

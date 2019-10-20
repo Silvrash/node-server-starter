@@ -1,0 +1,9 @@
+runtime: nodejs10
+
+env_variables:
+  DB_SOCKET_PATH: 
+  DB_NAME: sample
+  DB_TYPE: mysql
+  DB_USER: root
+  DB_PASSWORD: 
+  DB_PORT: 3306
