@@ -10,7 +10,7 @@
 		"dev": "NODE_ENV=development ts-node-dev --respawn -r tsconfig-paths/register src/index.ts",
 		"start": "node src/index.js",
 		"start:local": "node ./dist/src/index.js",
-		"prod": "npm run build && npm run start",
+		"prod": "npm run build && npm run start:local",
 		"test": "jest .",
 		"lint:fix": "tslint --config tslint.json --fix --project ."
 	},
